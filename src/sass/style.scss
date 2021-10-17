@@ -1,6 +1,6 @@
-@import '../base/var';
+@import 'base/var';
 
-* {
+*, body {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
@@ -8,6 +8,7 @@
 max-width: 950px;
 margin: 0 auto;
 }
-h1{
+
+h1 {
     color: aqua;
 }
