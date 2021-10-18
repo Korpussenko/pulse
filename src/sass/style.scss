@@ -9,6 +9,6 @@ max-width: 950px;
 margin: 0 auto;
 }
 
-h1 {
-    color: aqua;
-}
+@import 'block/promo';
+@import 'block/header';
+@import 'block/buttons';
