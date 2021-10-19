@@ -1,5 +1,6 @@
 @import 'base/var';
 
+
 *, body {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -12,3 +13,6 @@ margin: 0 auto;
 @import 'block/promo';
 @import 'block/header';
 @import 'block/buttons';
+@import 'block/benefit';
+
+@import 'base/media';
