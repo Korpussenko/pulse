@@ -160,7 +160,14 @@
 					left: -15px;
 					top: 9px;
 				}
-			}
+			}	
+		}
+		&__back {
+			font-size: 14px;
+			font-weight: 500;
+			text-decoration: underline;
+			color: $main-color;
+			text-transform: uppercase;
 		}
 	}
 }
