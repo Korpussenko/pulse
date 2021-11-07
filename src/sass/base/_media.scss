@@ -26,6 +26,27 @@
             }
         }
     }
+    .carousel {
+        img {
+            width:60%;
+        }
+        .prev , .next {
+            display: none;
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+
+    .review {
+        &-item {
+            width: 90%;
+            margin-left: 20px;
+        }
+    }
 }
 
 @media ( max-width: 767px) {
@@ -63,7 +84,7 @@
 
     .benefit {
         padding: 35px 0 0 0;
-        height: 105vh;
+        min-height: 100vh;
         &__header {
             font-size: 22px;
         }
@@ -98,6 +119,76 @@
             line-height: 1.5;
         }
     }
+    .carousel {
+        display: none;
+    }
+    .catalog {
+        padding: 0;
+        .title {
+            margin-top: 50px;
+            font-size: 22px;
+        }
+        &__tabs {
+            margin-top: 25px;
+        }
+        &__tab {
+            width: 170px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &-item {
+            width: 282px;
+            min-height: 100%;
+            &__img {
+                height: 115px;
+            }
+            hr {
+                margin-top: 0;
+            }
+            &__footer {
+                padding: 20px 20px 10px 20px;
+            }
+            &__list {
+                li {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .review {
+        padding: 25px 0;
+        .title {
+            font-size: 22px;
+        }
+        &-item {
+            margin-top: 30px;
+            margin-left: 30px;
+            align-items: center;
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+            &:nth-child(3) {
+                margin-top: 20px;
+            }
+            &__photo {
+                max-width: 130px;
+                max-height: 130px;
+            }
+            &__info {
+                margin-left: 20px;
+            }
+            &__name {
+                font-size: 14px;
+            }
+            &__runs {
+                font-size: 12px;
+            }
+            &__desc {
+                font-size: 13px;
+            }
+        }
+    }
 }
 
 @media ( max-width: 575px) {
@@ -105,6 +196,7 @@
         min-height: 500px;
         background: none;
         background-color: black;
+        padding: 21px 0 0 0;
         &__header {
             font-size: 20px;
             line-height: 0;
@@ -143,9 +235,9 @@
     }
 
     .benefit {
-        height: 85vh;
+        min-height: 111vh;
         &__header {
-            font-size: 16px;
+            font-size: 20px;
         }
         &__item {
             img {
@@ -167,7 +259,7 @@
         }
         .title {
             &_left {
-                font-size: 23px;
+                font-size: 20px;
                 line-height: 1.8;
                 text-align: center;
             }
@@ -182,6 +274,81 @@
                     margin-bottom: 40px;
                 }
             }
+        }
+    }
+    .catalog {
+        margin-top: 30px;
+        font-size: 14px;
+        .title {
+            font-size: 20px;
+        }
+        &__tabs {
+            flex-direction: column;
+            font-variant: all-small-caps;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+        hr {
+            width: 100%;
+            margin-top: 10px;
+        }
+        &-item {
+            width: 200px;
+            &__img {
+                height: 100px;
+            }
+            &__subtitle {
+                font-size: 13px;
+            }
+            &__desc {
+                font-size: 11px;
+            }
+            &__link {
+                font-size: 10px;
+            }
+            &__list {
+                padding-right: 10px;
+                li {
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            &__footer {
+                flex-direction: column;
+            }
+            &__prices {
+                display: flex;
+                justify-content: inherit;
+            }
+            &__old-price {
+                font-size: 12px;
+            }
+            &__new-price {
+                font-size: 12px;
+            }
+            .button_catalog {
+                margin: 10px auto 0 auto;
+                width: 80%;
+                height: 20px;
+                font-size: 11px;
+            }
+            &__footer {
+                padding-top: 10px;
+            }
+            &__back {
+                font-size: 10px;
+                bottom: -8px;
+            }
+        }
+    }
+    .review {
+        min-height: 100%;
+        .title {
+            font-size: 20px;
+        }
+        &-item {
+            flex-direction: column;
         }
     }
 }
