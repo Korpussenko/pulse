@@ -349,6 +349,10 @@
         }
         &-item {
             flex-direction: column;
+            text-align: center;
+            &__name {
+                margin-top: 10px;
+            }
         }
     }
 }
