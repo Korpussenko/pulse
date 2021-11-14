@@ -95,9 +95,9 @@
 				Просто заполните форму заявки <br>
 				и мы перезвоним вам в течении 10 минут
 			</div>
-		<form class="feed-form" action="#">
+		<form id="main-form" class="feed-form" action="#">
 			<input name="name" required placeholder="Ваше имя" type="text">
-			<input name="phone" required placeholder="Ваш телефон" type="number">
+			<input name="phone" required placeholder="Ваш телефон">
 			<input name="mail" required placeholder="Ваш E-mail" type="email">
 			<button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
 		</form>
@@ -428,9 +428,9 @@
 			<div class="modal__subtitle">Просто заполните форму заявки</div>
 			<div class="modal__desc">и мы перезвоним вам в течении 10 минут</div>
 			<form class="feed-form feed-form_mt25" action="#">
-				<input name="name" required placeholder="Ваше имя" type="text">
-				<input name="phone" required placeholder="Ваш телефон" type="number">
-				<input name="mail" required placeholder="Ваш E-mail" type="email">
+				<input name="name" placeholder="Ваше имя" type="text">
+				<input name="phone" placeholder="Ваш телефон">
+				<input name="mail" placeholder="Ваш E-mail" type="email">
 				<button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
 			</form>
 		</div>
@@ -440,7 +440,7 @@
 			<div class="modal__desc">Пульсометр Polar FT1</div>
 			<form class="feed-form feed-form_mt25" action="#">
 				<input name="name" required placeholder="Ваше имя" type="text">
-				<input name="phone" required placeholder="Ваш телефон" type="number">
+				<input name="phone" required placeholder="Ваш телефон">
 				<input name="mail" required placeholder="Ваш E-mail" type="email">
 				<button class="button button_consultation">купить</button>
 			</form>
@@ -453,6 +453,8 @@
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>
