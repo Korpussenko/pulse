@@ -1,0 +1,14 @@
+.page-up {
+    display: none;
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 5%;
+    right: 2vh;
+    border: 2px solid $main-color;
+    border-radius: 100%;
+    padding: 5px;
+    img {
+        width: 100%;
+    }
+}

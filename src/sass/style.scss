@@ -1,4 +1,5 @@
 @import 'base/var';
+@import 'base/animations';
 
 
 *, body {
@@ -23,5 +24,6 @@
 @import 'block/review';
 @import 'block/footer';
 @import 'block/modal';
+@import 'block/pagescroll';
 
 @import 'base/media';

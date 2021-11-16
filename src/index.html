@@ -8,13 +8,14 @@
 	<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 	<script src="https://kit.fontawesome.com/89b512ce7d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
-	<section class="promo">
+	<section id="up" class="promo">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -68,7 +69,7 @@
 						так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
 				</div>
 				<div class="benefit__item">
-					<img src="icons/heart.png" alt="heart" class="benefit__icon">
+					<img src="icons/heart.png" alt="heart" class="benefit__icon benefit__icon_animated">
 					<h2 class="benefit__title">Заботимся о здоровье</h2>
 					<div class="benefit__text">
 						Мы работаем для того, 
@@ -367,7 +368,7 @@
 		<div class="container">
 			<h2 class="title">отзывы клиентов</h2>
 			<div class="review__wrapper">
-				<div class="review-item">
+				<div class="review-item animate__animated animate__fadeInUp">
 					<img class="review-item__photo" src="img/review_1_.jpg" alt="review">
 				<div class="review-item__info">
 					<div class="review-item__name">Ирина Иванченко</div>
@@ -381,7 +382,7 @@
 				</div>
 				</div>
 				<hr>
-				<div class="review-item">
+				<div class="review-item animate__animated animate__fadeInUp">
 					<img class="review-item__photo" src="img/review_2.jpg" alt="review">
 					<div class="review-item__info">
 						<div class="review-item__name">Иван Сёмочкин</div>
@@ -393,7 +394,7 @@
 					</div>
 				</div>
 				<hr>
-				<div class="review-item">
+				<div class="review-item animate__animated animate__fadeInUp">
 					<img class="review-item__photo" src="img/review_3.jpg" alt="review">
 					<div class="review-item__info">
 						<div class="review-item__name">Юлия Дашкина</div>
@@ -451,6 +452,11 @@
 			<div class="modal__desc">Наш менеджер свяжется с вами в ближайшее время!</div>
 		</div>
 	</div>
+
+	 <a href="#up" class="page-up">
+		<img src="icons/arrow-up.svg" alt="up">
+	 </a>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/jquery.validate.min.js"></script>

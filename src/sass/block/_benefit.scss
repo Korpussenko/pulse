@@ -53,4 +53,10 @@
             transition: 0.5s;
         }
     }
+
+    &__icon {
+        &_animated { 
+            animation: heartbeat 1.5s ease-out infinite;
+        }
+    }
 }
